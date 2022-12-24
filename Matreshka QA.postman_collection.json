@@ -1,0 +1,549 @@
+{
+	"info": {
+		"_postman_id": "7efd1438-d671-4de6-a313-59ad17d8abe8",
+		"name": "Matreshka QA",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "22815846"
+	},
+	"item": [
+		{
+			"name": "get",
+			"item": [
+				{
+					"name": "1-1 ввести данные",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "accept",
+								"value": "*/*"
+							},
+							{
+								"key": "x-xsrf-token",
+								"value": "303e5cce-5fd4-44dd-a1ea-93167dbe4ca5",
+								"type": "text"
+							},
+							{
+								"key": "cookie",
+								"value": "_gcl_au=1.1.1901008115.1667068606; _ym_uid=1667068606120928760; _ym_d=1667068606; _ga=GA1.2.398826587.1667068606; _fbp=fb.1.1667068606347.344540895; supportOnlineTalkID=eKTSQ7OlHnAKltgV0mZo1dHA1QorIfah; _ym_visorc=w; _ym_isad=1; _gid=GA1.2.1261042542.1670514064; XSRF-TOKEN=303e5cce-5fd4-44dd-a1ea-93167dbe4ca5; remember-me=eDc2TFlVMyUyRktVc1hQZGhIbXR4VmdBJTNEJTNEOjYzeVBSa0JkTEJyWGtqUUxwZFducUElM0QlM0Q; userId=493957501; SESSION=Nzc4MjE2MjMtYjM1Yy00ZmQ3LTlmYWUtMmY5YmViZmY0Zjc3",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://dev-t.uxcrowd.ru/api/customer/profile",
+							"protocol": "https",
+							"host": [
+								"dev-t",
+								"uxcrowd",
+								"ru"
+							],
+							"path": [
+								"api",
+								"customer",
+								"profile"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "найти промокод ",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "x-xsrf-token",
+								"value": "258ccfb4-b0bf-4a86-976c-62be13fb809f",
+								"type": "text"
+							},
+							{
+								"key": "cookie",
+								"value": "_gcl_au=1.1.1901008115.1667068606; _ym_uid=1667068606120928760; _ym_d=1667068606; _ga=GA1.2.398826587.1667068606; _fbp=fb.1.1667068606347.344540895; supportOnlineTalkID=eKTSQ7OlHnAKltgV0mZo1dHA1QorIfah; _ym_visorc=w; _ym_isad=1; _gid=GA1.2.1261042542.1670514064; intercom-device-id-fkbc3no8=7db07485-acaa-44fe-8bec-327d048d0e54; intercom-id-fkbc3no8=b0cf7f58-4804-4fdc-84a5-9cb8155ef5c3; intercom-session-fkbc3no8=bENDSWxIY3RTcUJVeXIremIrWXdyZkRUYWVJdUZMcnVzaE1qdW9rUnZaclhydy81N0JrRVhFbWo0Q3pyQ0FiMi0tZFNXNW1tSHg1elYrSWtyaEFJNlRkdz09--693bdbf363fe99b9bc265f8e6d1ec812df19e63a; _gat_gtag_UA_76628941_1=1; XSRF-TOKEN=258ccfb4-b0bf-4a86-976c-62be13fb809f; remember-me=Nm9QbE1OYTFDV3JaamEwN01vd2pxQSUzRCUzRDpLdExCa1lseHc3aFpWbzlSJTJCVHg2d2clM0QlM0Q; userId=493957650; SESSION=MGIwN2IwYjMtMzQ4Zi00NjQ1LTlkYTktNDhmNjQ2NjZhZDBk",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://dev-t.uxcrowd.ru/api/v2/promo-code",
+							"protocol": "https",
+							"host": [
+								"dev-t",
+								"uxcrowd",
+								"ru"
+							],
+							"path": [
+								"api",
+								"v2",
+								"promo-code"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ввести данные тестера",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "x-xsrf-token",
+								"value": "cc9b72f0-6078-4767-b841-bb176a5ba234",
+								"type": "text"
+							},
+							{
+								"key": "cookie",
+								"value": "_gcl_au=1.1.1901008115.1667068606; _ym_uid=1667068606120928760; _ym_d=1667068606; _ga=GA1.2.398826587.1667068606; _fbp=fb.1.1667068606347.344540895; supportOnlineTalkID=eKTSQ7OlHnAKltgV0mZo1dHA1QorIfah; _ym_isad=1; _gid=GA1.2.1261042542.1670514064; intercom-device-id-fkbc3no8=7db07485-acaa-44fe-8bec-327d048d0e54; intercom-id-fkbc3no8=31594137-ab0d-4a28-a6be-750afe469528; _ym_visorc=w; intercom-session-fkbc3no8=S01Va29NQ2ZNSXlqWkQyS0R2Z25WUS9tMlVxcnByRUI5WmY2aGxuK2RIVlFLUTJ6eU1HZTN0cWVyMDR0SmRjWS0tdUI1SE1OcGFkdHo0OFA0UStwQW5Edz09--1bc8a8eecce40e0a85c288eca82962527d41e3ce; _gat_gtag_UA_76628941_1=1; XSRF-TOKEN=cc9b72f0-6078-4767-b841-bb176a5ba234; remember-me=JTJGVzdhZFNrOG5LZ3lJaG9SZTN5bGd3JTNEJTNEOnJCQmIxclJCUEtoaWtjUk9uN1IxWmclM0QlM0Q; userId=493957551; SESSION=YzUzMGNkYWMtNjk1OS00OWUwLWJiYTItY2JhOGQ0NzZmNGMw",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://dev-t.uxcrowd.ru/api/v2/tester/profile",
+							"protocol": "https",
+							"host": [
+								"dev-t",
+								"uxcrowd",
+								"ru"
+							],
+							"path": [
+								"api",
+								"v2",
+								"tester",
+								"profile"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "post",
+			"item": [
+				{
+					"name": "1-2 изменить данные",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "x-xsrf-token",
+								"value": "303e5cce-5fd4-44dd-a1ea-93167dbe4ca5",
+								"type": "text"
+							},
+							{
+								"key": "cookie",
+								"value": "_gcl_au=1.1.1901008115.1667068606; _ym_uid=1667068606120928760; _ym_d=1667068606; _ga=GA1.2.398826587.1667068606; _fbp=fb.1.1667068606347.344540895; supportOnlineTalkID=eKTSQ7OlHnAKltgV0mZo1dHA1QorIfah; _ym_visorc=w; _ym_isad=1; _gid=GA1.2.1261042542.1670514064; XSRF-TOKEN=303e5cce-5fd4-44dd-a1ea-93167dbe4ca5; remember-me=eDc2TFlVMyUyRktVc1hQZGhIbXR4VmdBJTNEJTNEOjYzeVBSa0JkTEJyWGtqUUxwZFducUElM0QlM0Q; userId=493957501; SESSION=Nzc4MjE2MjMtYjM1Yy00ZmQ3LTlmYWUtMmY5YmViZmY0Zjc3",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"id\": 493957501,\n    \"fio\": \"Иванов Иван Петрович\",\n    \"username\": \"client\",\n    \"email\": \"client@mailto.plus\",\n    \"phone\": null,\n    \"customerType\": \"FL\",\n    \"inn\": null,\n    \"lawAddress\": \"!\",\n    \"kpp\": null,\n    \"ogrn\": null,\n    \"companyName\": \"pflb.ru\",\n    \"passSeriesNum\": \"1111111111\",\n    \"passGet\": \"!\",\n    \"emailNotification\": false,\n    \"created\": \"2022-06-16T11:43:07.220297Z\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://dev-t.uxcrowd.ru/api/customer/profile",
+							"protocol": "https",
+							"host": [
+								"dev-t",
+								"uxcrowd",
+								"ru"
+							],
+							"path": [
+								"api",
+								"customer",
+								"profile"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "создание промокода",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "x-xsrf-token",
+								"value": "258ccfb4-b0bf-4a86-976c-62be13fb809f",
+								"type": "text"
+							},
+							{
+								"key": "cookie",
+								"value": "_gcl_au=1.1.1901008115.1667068606; _ym_uid=1667068606120928760; _ym_d=1667068606; _ga=GA1.2.398826587.1667068606; _fbp=fb.1.1667068606347.344540895; supportOnlineTalkID=eKTSQ7OlHnAKltgV0mZo1dHA1QorIfah; _ym_visorc=w; _ym_isad=1; _gid=GA1.2.1261042542.1670514064; intercom-device-id-fkbc3no8=7db07485-acaa-44fe-8bec-327d048d0e54; intercom-id-fkbc3no8=b0cf7f58-4804-4fdc-84a5-9cb8155ef5c3; intercom-session-fkbc3no8=bENDSWxIY3RTcUJVeXIremIrWXdyZkRUYWVJdUZMcnVzaE1qdW9rUnZaclhydy81N0JrRVhFbWo0Q3pyQ0FiMi0tZFNXNW1tSHg1elYrSWtyaEFJNlRkdz09--693bdbf363fe99b9bc265f8e6d1ec812df19e63a; _gat_gtag_UA_76628941_1=1; XSRF-TOKEN=258ccfb4-b0bf-4a86-976c-62be13fb809f; remember-me=Nm9QbE1OYTFDV3JaamEwN01vd2pxQSUzRCUzRDpLdExCa1lseHc3aFpWbzlSJTJCVHg2d2clM0QlM0Q; userId=493957650; SESSION=MGIwN2IwYjMtMzQ4Zi00NjQ1LTlkYTktNDhmNjQ2NjZhZDBk",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"code\": \"qaft\",\n  \"enabled\": true,\n  \"endDate\": \"10.12.2022\",\n  \"startDate\": \"20.12.2022\",\n  \"testersCountMin\": 0,\n  \"type\": \"PERCENT\",\n  \"value\": 50\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://dev-t.uxcrowd.ru/api/v2/promo-code",
+							"protocol": "https",
+							"host": [
+								"dev-t",
+								"uxcrowd",
+								"ru"
+							],
+							"path": [
+								"api",
+								"v2",
+								"promo-code"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "изменить данные тестера",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "x-xsrf-token",
+								"value": "cc9b72f0-6078-4767-b841-bb176a5ba234",
+								"type": "text"
+							},
+							{
+								"key": "cookie",
+								"value": "_gcl_au=1.1.1901008115.1667068606; _ym_uid=1667068606120928760; _ym_d=1667068606; _ga=GA1.2.398826587.1667068606; _fbp=fb.1.1667068606347.344540895; supportOnlineTalkID=eKTSQ7OlHnAKltgV0mZo1dHA1QorIfah; _ym_isad=1; _gid=GA1.2.1261042542.1670514064; intercom-device-id-fkbc3no8=7db07485-acaa-44fe-8bec-327d048d0e54; intercom-id-fkbc3no8=31594137-ab0d-4a28-a6be-750afe469528; _ym_visorc=w; intercom-session-fkbc3no8=S01Va29NQ2ZNSXlqWkQyS0R2Z25WUS9tMlVxcnByRUI5WmY2aGxuK2RIVlFLUTJ6eU1HZTN0cWVyMDR0SmRjWS0tdUI1SE1OcGFkdHo0OFA0UStwQW5Edz09--1bc8a8eecce40e0a85c288eca82962527d41e3ce; _gat_gtag_UA_76628941_1=1; XSRF-TOKEN=cc9b72f0-6078-4767-b841-bb176a5ba234; remember-me=JTJGVzdhZFNrOG5LZ3lJaG9SZTN5bGd3JTNEJTNEOnJCQmIxclJCUEtoaWtjUk9uN1IxWmclM0QlM0Q; userId=493957551; SESSION=YzUzMGNkYWMtNjk1OS00OWUwLWJiYTItY2JhOGQ0NzZmNGMw",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"id\": 493957551,\n    \"fio\": \"Иванов Иван Иванович\",\n    \"username\": \"tester\",\n    \"email\": \"tester@mailto.plus\",\n    \"country\": null,\n    \"paypalEmail\": null,\n    \"zipcode\": null,\n    \"city\": \"ААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААА\",\n    \"income\": 55000,\n    \"familyStatus\": \"NOT_MARRIED\",\n    \"kids\": \"FOUR\",\n    \"emailNotification\": false,\n    \"gender\": \"FEMALE\",\n    \"birthday\": \"28.02.1981\",\n    \"education\": \"HIGH\",\n    \"socialStatus\": \"FREELANCER\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://dev-t.uxcrowd.ru/api/v2/tester/profile",
+							"protocol": "https",
+							"host": [
+								"dev-t",
+								"uxcrowd",
+								"ru"
+							],
+							"path": [
+								"api",
+								"v2",
+								"tester",
+								"profile"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "создание инсайта",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "accept",
+								"value": "application/json"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "x-xsrf-token",
+								"value": "521c805d-2408-4a0e-ac5f-3fbf4158e6de",
+								"type": "text"
+							},
+							{
+								"key": "cookie",
+								"value": "_gcl_au=1.1.1901008115.1667068606; _ym_uid=1667068606120928760; _ym_d=1667068606; _ga=GA1.2.398826587.1667068606; _fbp=fb.1.1667068606347.344540895; supportOnlineTalkID=eKTSQ7OlHnAKltgV0mZo1dHA1QorIfah; _gid=GA1.2.1261042542.1670514064; intercom-device-id-fkbc3no8=7db07485-acaa-44fe-8bec-327d048d0e54; _gat_gtag_UA_76628941_1=1; _ym_isad=2; _ym_visorc=w; intercom-id-fkbc3no8=c5a41756-6bc2-4f73-b21b-98f610e04cf7; XSRF-TOKEN=521c805d-2408-4a0e-ac5f-3fbf4158e6de; remember-me=cHJ0RVBVYjNVa1h1bFBPMktzQXFCdyUzRCUzRDpqJTJCWlE3UTUyenIlMkZ6eTkxSktOOEtZZyUzRCUzRA; userId=493925771; SESSION=NGQ3ODBlYjYtYTFkYy00YTJjLTgyZTktZmU2NjgzYzhjZTA3; intercom-session-fkbc3no8=KzlSZmhnYjFPME8zZDhQbU5Cc2N6Uld2clkvV3RoNDFRR3F6L0VzVUt6dE9tYXFwRUR5cGYzOFlORG13dlRCeS0tbVRjQnN6ZGIzQi9sNHduYlRyYWFBdz09--7e85b0dc8c08135387d4039e3eb616bcb3c81c7a",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{ \"description\": \"qa coment\", \"direction\": \"ASC\", \"endTime\": 1, \"orderId\": 0, \"page\": 0, \"q\": \"string\", \"size\": 0, \"sort\": [ \"string\" ], \"startTime\": 2}"
+						},
+						"url": {
+							"raw": "https://dev-f.uxcrowd.ru/api/v3/video/846d6b64-a824-43dd-bb17-88ca238a4876/note",
+							"protocol": "https",
+							"host": [
+								"dev-f",
+								"uxcrowd",
+								"ru"
+							],
+							"path": [
+								"api",
+								"v3",
+								"video",
+								"846d6b64-a824-43dd-bb17-88ca238a4876",
+								"note"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "put",
+			"item": [
+				{
+					"name": "изменить промокод",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "accept",
+								"value": "*/*"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "x-xsrf-token",
+								"value": "258ccfb4-b0bf-4a86-976c-62be13fb809f",
+								"type": "text"
+							},
+							{
+								"key": "cookie",
+								"value": "_gcl_au=1.1.1901008115.1667068606; _ym_uid=1667068606120928760; _ym_d=1667068606; _ga=GA1.2.398826587.1667068606; _fbp=fb.1.1667068606347.344540895; supportOnlineTalkID=eKTSQ7OlHnAKltgV0mZo1dHA1QorIfah; _ym_visorc=w; _ym_isad=1; _gid=GA1.2.1261042542.1670514064; intercom-device-id-fkbc3no8=7db07485-acaa-44fe-8bec-327d048d0e54; intercom-id-fkbc3no8=b0cf7f58-4804-4fdc-84a5-9cb8155ef5c3; XSRF-TOKEN=258ccfb4-b0bf-4a86-976c-62be13fb809f; remember-me=Nm9QbE1OYTFDV3JaamEwN01vd2pxQSUzRCUzRDpLdExCa1lseHc3aFpWbzlSJTJCVHg2d2clM0QlM0Q; userId=493957650; SESSION=MGIwN2IwYjMtMzQ4Zi00NjQ1LTlkYTktNDhmNjQ2NjZhZDBk; intercom-session-fkbc3no8=T1hDcWNjRWVOK1lTZnR4Z2cxOGFla0l6VmpWN2xZaE5KcTRpclhGTHFxWUpRb1JCZjZDTmszZnFFajN5OTcvRS0teGcrOC9kbjYzMnVVR1F6UjMzcEtGZz09--404a28af993e81d2dca2ed462c3b162742b4cf37",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{ \n\"code\": \"qa57\", \n\"enabled\": true, \n\"endDate\": \"10.12.2022\", \n\"startDate\": \"20.12.2022\", \n\"testersCountMin\": 0, \n\"type\": \"PERCENT\", \n\"value\": 30\n}"
+						},
+						"url": {
+							"raw": "https://dev-t.uxcrowd.ru/api/v2/promo-code/1214",
+							"protocol": "https",
+							"host": [
+								"dev-t",
+								"uxcrowd",
+								"ru"
+							],
+							"path": [
+								"api",
+								"v2",
+								"promo-code",
+								"1214"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "изменение инсайта",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "accept",
+								"value": "application/json"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "x-xsrf-token",
+								"value": "521c805d-2408-4a0e-ac5f-3fbf4158e6de",
+								"type": "text"
+							},
+							{
+								"key": "cookie",
+								"value": "_gcl_au=1.1.1901008115.1667068606; _ym_uid=1667068606120928760; _ym_d=1667068606; _ga=GA1.2.398826587.1667068606; _fbp=fb.1.1667068606347.344540895; supportOnlineTalkID=eKTSQ7OlHnAKltgV0mZo1dHA1QorIfah; _gid=GA1.2.1261042542.1670514064; intercom-device-id-fkbc3no8=7db07485-acaa-44fe-8bec-327d048d0e54; _gat_gtag_UA_76628941_1=1; _ym_isad=2; _ym_visorc=w; intercom-id-fkbc3no8=c5a41756-6bc2-4f73-b21b-98f610e04cf7; XSRF-TOKEN=521c805d-2408-4a0e-ac5f-3fbf4158e6de; remember-me=cHJ0RVBVYjNVa1h1bFBPMktzQXFCdyUzRCUzRDpqJTJCWlE3UTUyenIlMkZ6eTkxSktOOEtZZyUzRCUzRA; userId=493925771; SESSION=NGQ3ODBlYjYtYTFkYy00YTJjLTgyZTktZmU2NjgzYzhjZTA3; intercom-session-fkbc3no8=KzlSZmhnYjFPME8zZDhQbU5Cc2N6Uld2clkvV3RoNDFRR3F6L0VzVUt6dE9tYXFwRUR5cGYzOFlORG13dlRCeS0tbVRjQnN6ZGIzQi9sNHduYlRyYWFBdz09--7e85b0dc8c08135387d4039e3eb616bcb3c81c7a",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{ \"description\": \"qaft\", \"direction\": \"ASC\", \"endTime\": 2, \"orderId\": 0, \"page\": 0, \"q\": \"string\", \"size\": 0, \"sort\": [ \"string\" ], \"startTime\": 3}"
+						},
+						"url": {
+							"raw": "https://dev-f.uxcrowd.ru/api/v3/video/notes/987728",
+							"protocol": "https",
+							"host": [
+								"dev-f",
+								"uxcrowd",
+								"ru"
+							],
+							"path": [
+								"api",
+								"v3",
+								"video",
+								"notes",
+								"987728"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "del",
+			"item": [
+				{
+					"name": "удалить промокод ",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "x-xsrf-token",
+								"value": "258ccfb4-b0bf-4a86-976c-62be13fb809f",
+								"type": "text"
+							},
+							{
+								"key": "cookie",
+								"value": "_gcl_au=1.1.1901008115.1667068606; _ym_uid=1667068606120928760; _ym_d=1667068606; _ga=GA1.2.398826587.1667068606; _fbp=fb.1.1667068606347.344540895; supportOnlineTalkID=eKTSQ7OlHnAKltgV0mZo1dHA1QorIfah; _ym_visorc=w; _ym_isad=1; _gid=GA1.2.1261042542.1670514064; intercom-device-id-fkbc3no8=7db07485-acaa-44fe-8bec-327d048d0e54; intercom-id-fkbc3no8=b0cf7f58-4804-4fdc-84a5-9cb8155ef5c3; XSRF-TOKEN=258ccfb4-b0bf-4a86-976c-62be13fb809f; remember-me=Nm9QbE1OYTFDV3JaamEwN01vd2pxQSUzRCUzRDpLdExCa1lseHc3aFpWbzlSJTJCVHg2d2clM0QlM0Q; userId=493957650; SESSION=MGIwN2IwYjMtMzQ4Zi00NjQ1LTlkYTktNDhmNjQ2NjZhZDBk; intercom-session-fkbc3no8=T1hDcWNjRWVOK1lTZnR4Z2cxOGFla0l6VmpWN2xZaE5KcTRpclhGTHFxWUpRb1JCZjZDTmszZnFFajN5OTcvRS0teGcrOC9kbjYzMnVVR1F6UjMzcEtGZz09--404a28af993e81d2dca2ed462c3b162742b4cf37",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"body\": {1214},\n  \"statusCode\": \"100 CONTINUE\",\n  \"statusCodeValue\": 0\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://dev-t.uxcrowd.ru/api/v2/promo-code/1214?",
+							"protocol": "https",
+							"host": [
+								"dev-t",
+								"uxcrowd",
+								"ru"
+							],
+							"path": [
+								"api",
+								"v2",
+								"promo-code",
+								"1214"
+							],
+							"query": [
+								{
+									"key": "",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "удалить черновик",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "x-xsrf-token",
+								"value": "4a1ae0e5-4dbc-417f-a069-1379d7f9906b",
+								"type": "text"
+							},
+							{
+								"key": "cookie",
+								"value": "_gcl_au=1.1.1901008115.1667068606; _ym_uid=1667068606120928760; _ym_d=1667068606; _ga=GA1.2.398826587.1667068606; _fbp=fb.1.1667068606347.344540895; supportOnlineTalkID=eKTSQ7OlHnAKltgV0mZo1dHA1QorIfah; _ym_isad=1; _gid=GA1.2.1261042542.1670514064; intercom-device-id-fkbc3no8=7db07485-acaa-44fe-8bec-327d048d0e54; intercom-id-fkbc3no8=31594137-ab0d-4a28-a6be-750afe469528; intercom-session-fkbc3no8=; XSRF-TOKEN=4a1ae0e5-4dbc-417f-a069-1379d7f9906b; remember-me=MnR2d0dzciUyRkhvb25jZ2tVZWtMTiUyQkElM0QlM0Q6VXFzQlAwVDQ4TCUyQk9tV0VqTDNpTmRRJTNEJTNE; userId=493957501; SESSION=OGY5ZDEwOTYtM2Y1OC00ODgyLTk0MmQtNzgyNjVmZjY1NmIy",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "\n  \"body\": {26262437},\n  \"statusCode\": \"100 CONTINUE\",\n  \"statusCodeValue\": 0\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://dev-t.uxcrowd.ru/api/customer/removeDraft?id=26262437",
+							"protocol": "https",
+							"host": [
+								"dev-t",
+								"uxcrowd",
+								"ru"
+							],
+							"path": [
+								"api",
+								"customer",
+								"removeDraft"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "26262437"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "удалить инсайт ",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "accept",
+								"value": "application/json"
+							},
+							{
+								"key": "x-xsrf-token",
+								"value": "521c805d-2408-4a0e-ac5f-3fbf4158e6de",
+								"type": "text"
+							},
+							{
+								"key": "cookie",
+								"value": "_gcl_au=1.1.1901008115.1667068606; _ym_uid=1667068606120928760; _ym_d=1667068606; _ga=GA1.2.398826587.1667068606; _fbp=fb.1.1667068606347.344540895; supportOnlineTalkID=eKTSQ7OlHnAKltgV0mZo1dHA1QorIfah; _gid=GA1.2.1261042542.1670514064; intercom-device-id-fkbc3no8=7db07485-acaa-44fe-8bec-327d048d0e54; _gat_gtag_UA_76628941_1=1; _ym_isad=2; _ym_visorc=w; intercom-id-fkbc3no8=c5a41756-6bc2-4f73-b21b-98f610e04cf7; XSRF-TOKEN=521c805d-2408-4a0e-ac5f-3fbf4158e6de; remember-me=cHJ0RVBVYjNVa1h1bFBPMktzQXFCdyUzRCUzRDpqJTJCWlE3UTUyenIlMkZ6eTkxSktOOEtZZyUzRCUzRA; userId=493925771; SESSION=NGQ3ODBlYjYtYTFkYy00YTJjLTgyZTktZmU2NjgzYzhjZTA3; intercom-session-fkbc3no8=KzlSZmhnYjFPME8zZDhQbU5Cc2N6Uld2clkvV3RoNDFRR3F6L0VzVUt6dE9tYXFwRUR5cGYzOFlORG13dlRCeS0tbVRjQnN6ZGIzQi9sNHduYlRyYWFBdz09--7e85b0dc8c08135387d4039e3eb616bcb3c81c7a",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://dev-f.uxcrowd.ru/api/v3/video/notes/987728",
+							"protocol": "https",
+							"host": [
+								"dev-f",
+								"uxcrowd",
+								"ru"
+							],
+							"path": [
+								"api",
+								"v3",
+								"video",
+								"notes",
+								"987728"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
